@@ -1,0 +1,26 @@
+.user-card {
+  margin: 20px;
+  border-radius: 12px;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  margin-bottom: 8px;
+}
+
+.user-description {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.user-button {
+  margin-top: 20px;
+}
+
+.user-not-found {
+  padding: 20px;
+}

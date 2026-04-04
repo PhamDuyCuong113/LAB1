@@ -1,0 +1,49 @@
+.photos-container {
+  padding: 20px;
+}
+
+.photos-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.photo-card {
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.photo-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.photo-time {
+  margin-top: 10px;
+  color: gray;
+}
+
+.photo-comments {
+  margin-top: 10px;
+}
+
+.comment-item {
+  margin-bottom: 10px;
+}
+
+.comment-user {
+  text-decoration: none;
+  color: #1976d2;
+}
+
+.comment-user:hover {
+  text-decoration: underline;
+}
+
+.no-photos {
+  padding: 20px;
+}
+
+.photo-image:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}

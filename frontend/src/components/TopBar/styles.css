@@ -1,0 +1,9 @@
+.topbar-appBar {
+  background-color: #1976d2; /* màu xanh MUI */
+}
+
+.topbar-title {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
