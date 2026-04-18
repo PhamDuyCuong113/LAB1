@@ -1,7 +1,7 @@
 function fetchModel(url) {
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", `http://localhost:3001${url}`);
+    xhr.open("GET", `https://cxh6ds-8081.csb.app/api${url}`);
     xhr.send();
 
     xhr.onreadystatechange = () => {

@@ -7,7 +7,7 @@ function TopBar() {
     <AppBar className="topbar-appBar" position="absolute">
       <Toolbar>
         <Typography className="topbar-title" variant="h5">
-          This is the TopBar component
+          Phạm Duy Cường
         </Typography>
       </Toolbar>
     </AppBar>

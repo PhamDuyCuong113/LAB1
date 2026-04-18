@@ -41,8 +41,19 @@ function UserList() {
               }`}
             >
               <ListItemText
-                primary={`${item.first_name} ${item.last_name}`}
-              />
+  primary={
+    <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <span>
+        {item.first_name} {item.last_name}
+      </span>
+
+      <span>
+        🟢 {item.photoCount} &nbsp; 🔴 {item.commentCount}
+      </span>
+    </div>
+  }
+  
+/>
             </ListItem>
             <Divider />
           </React.Fragment>

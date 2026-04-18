@@ -13,7 +13,7 @@ function UserPhotos() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetchModel(`/photosOfUser/${userId}`).then((response) => {
+    fetchModel(`/photo/photosOfUser/${userId}`).then((response) => {
       setPhotos(response.data); 
     });
 
@@ -45,7 +45,7 @@ function UserPhotos() {
           <CardContent>
             {/* 📸 Image */}
             <img
-              src={`http://localhost:3001/images/${photo.file_name}`}
+              src={`https://cxh6ds-8081.csb.app/images/${photo.file_name}`}
               alt={photo.file_name}
               className="photo-image"
             />
